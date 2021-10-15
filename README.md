@@ -5,8 +5,27 @@
 ## Supported scenarios, models and datasets
 
 ## Set Up
+In this section, we will go over the basic setup steps that you need in order to generate responsible AI insights for your models from SDK and visualize the generated responsible AI insights in [AML studio](https://ml.azure.com/).
 
-### Using the `azureml.responsibleai` SDK
+### Installing `azureml-responsibleai` SDK
+In order to install `azureml-responsibleai` package you will need a python virtual environment. You can create a python virtual environment using `conda`.
+```c
+conda create -n azureml_env python=3.6.12 nb_conda -y
+```
+
+Once the `conda` environment `azureml_env` is created, you can install `azureml-responsibleai` using `pip`.
+
+```c
+activate azureml_env
+pip install azureml-responsibleai
+pip install liac-arff
+```
+
+### Create an Azure subscription
+Create an Azure workspace by using the [configuration notebook](https://github.com/Azure/MachineLearningNotebooks/blob/master/configuration.ipynb)
+
+### Generating responsibleai AI insights
+Once you have installed `azureml-responsibleai` and created an Azure workspace, you can execute the responsibleai notebooks in the `notebooks` folder in this repo.
 
 ### Viewing your Responsible AI Dashboard in the AzureML studio portal
 
