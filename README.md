@@ -1,14 +1,21 @@
-# Project
+# Azure Machine Learning Responsible AI Dashboard - Private Preview
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+## What is this new feature?
 
-As the maintainer of this project, please make a few updates:
+## Supported scenarios, models and datasets
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Set Up
+
+### Using the `azureml.responsibleai` SDK
+
+### Viewing your Responsible AI Dashboard in the AzureML studio portal
+
+## Responsible AI Dashboard walkthrough and sample notebooks
+
+## What Next?: How to join Private Preview
+We are super excited for you to try this new feature in AzureML! 
+- Reach out to - mithigpe@microsoft.com to enable your Azure subscription for this Private Preview feature.
+- In addition, fill out this form - Private Preview sign up for [Responsible AI Dashboard in AzureML](https://forms.office.com/r/R6PmBCkyWb)
 
 ## Contributing
 
