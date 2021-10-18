@@ -56,14 +56,15 @@ After generating the Responsible AI insights via SDK, you can view them in your 
 
 ![04](images/04_dashboard.png)
 5. At anytime viewing the dashboard, if you wish to return to the model details page, click on `Back to model details`
+<ol type="A">
+  <li>You can view the dashboard insights for each component filtered down on a global cohort you specify. Hovering over the global cohort name will show the number of datapoints and filters in that cohort as a tooltip.</li>
+  <li>Switch which global cohort you are applying to the dashboard.</li>
+  <li>Create a new global cohort based on filters you can apply in a flyout panel.</li>
+  <li>View a list of all global cohorts created and duplicate, edit or delete them.</li>
+  <li>View a list of all Responsible AI components you've uploaded to this dashboard as well as deleting components. The layout of the dashboard will reflect the order of the components in this list.</li>
+</ol>
 
-A. You can view the dashboard insights for each component filtered down on a global cohort you specify. Hovering over the global cohort name will show the number of datapoints and filters in that cohort as a tooltip.
-B. Switch which global cohort you are applying to the dashboard.
-C. Create a new global cohort based on filters you can apply in a flyout panel.
-D. View a list of all global cohorts created and duplicate, edit or delete them. 
-E. View a list of all Responsible AI components you've uploaded to this dashboard as well as deleting components. The layout of the dashboard will reflect the order of the components in this list. 
-
-**Note:** Error Analysis, if generated, will always be at the top of the component list in your dashboard. Selecting on the nodes of the error tree or tiles of the error heatmap will automatically generate a temporary cohort that will be populated in the components below so that you can easily experiment with looking at insights for different areas of your error distribution.
+❗ **Please note:** Error Analysis, if generated, will always be at the top of the component list in your dashboard. Selecting on the nodes of the error tree or tiles of the error heatmap will automatically generate a temporary cohort that will be populated in the components below so that you can easily experiment with looking at insights for different areas of your error distribution.
 
 ![05](images/05_add_dashboard.png)
 6. In between each component you can add components by clicking the blue circular button with a plus sign. This will pop up a tooltip that will give you an option of adding whichever Responsible AI dashboard component you enabled with your SDK.
