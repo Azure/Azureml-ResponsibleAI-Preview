@@ -24,10 +24,10 @@ In this section, we will go over the basic setup steps that you need in order to
 ### Installing `azureml-responsibleai` SDK
 In order to install `azureml-responsibleai` package you will need a python virtual environment. You can create a python virtual environment using `conda`.
 ```c
-conda create -n azureml_env python=3.6.12 nb_conda -y
+conda create -n azureml_env python=3.7 nb_conda -y
 ```
 
-Once the `conda` environment `azureml_env` is created, you can install `azureml-responsibleai` using `pip`.
+We support python versions `>= 3.6` and `< 3.9`. Once the `conda` environment `azureml_env` is created, you can install `azureml-responsibleai` using `pip`.
 
 ```c
 activate azureml_env
