@@ -30,6 +30,8 @@ Once you have installed `azureml-responsibleai` and created an Azure workspace, 
 ### Viewing your Responsible AI Dashboard in the AzureML studio portal
 
 ## Responsible AI Dashboard walkthrough and sample notebooks
+Please read through our sample notebooks for both regression and classification. 
+Read through our brief [tour guide of the new Responsible AI dashboard capabilities.](https://github.com/microsoft/responsible-ai-widgets/blob/main/notebooks/responsibleaitoolbox-dashboard/tour.ipynb) 
 
 ## What Next?: How to join Private Preview
 We are super excited for you to try this new feature in AzureML! 
