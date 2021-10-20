@@ -18,6 +18,17 @@ This new feature offers users a new powerful and robust toolkit for understandin
 
 ## Supported scenarios, models and datasets
 
+`azureml-responsibleai` supports computation of responsible AI insights for `scikit-learn` models. Currently, we support datasets having numerical and categorical features. The following table provides the scenarios supported for each of the four responsible AI insights:-
+
+| RAI insight | Binary classification | Multi-class classification | Multilabel classification | Regression | Timeseries forecasting | Categorical features | Text features | Image Features | Recommender Systems | Reinforcement Learning |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -- |
+| Explainability | Yes | Yes | No | Yes | No | Yes | No | No | No | No |
+| Error Analysis | Yes | Yes | No | Yes | No | Yes | No | No | No | No |
+| Causal Analysis | Yes | No | No | Yes | No | Yes (max 5 features due to expensiveness) | No | No | No | No |
+| Counterfactual | Yes | Yes | No | Yes | No | Yes | No | No | No | No |
+
+
+
 ## Set Up
 In this section, we will go over the basic setup steps that you need in order to generate Responsible AI insights for your models from SDK and visualize the generated Responsible AI insights in [AML studio](https://ml.azure.com/).
 
