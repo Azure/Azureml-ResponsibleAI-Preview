@@ -4,13 +4,13 @@ Welcome to the private preview for the new Responsible AI dashboard in Azure Mac
 
 ## What is this new feature?
 
-AzureML currently supports both [model explanations](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-interpretability-aml) and [model fairness](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-fairness-aml) in public preview. As we expand our offerings under Responsible AI tools for AzureMl users, this new feature brings pre-existing features and brand new offerings under one-stop-shop SDK package and studio UI dashboard:
-- Error Analysis: view and understand the error distributions of your model over your dataset via a decision tree map or heat map visualization.
+AzureML currently supports both [model explanations](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-interpretability-aml) and [model fairness](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-fairness-aml) in public preview. As we expand our offerings under Responsible AI tools for AzureML users, this new feature brings pre-existing features and brand new offerings under one-stop-shop SDK package and studio UI dashboard:
+- Error Analysis (new): view and understand the error distributions of your model over your dataset via a decision tree map or heat map visualization.
 - Data Explorer: explore your dataset by feature sets and other metrics such as predicted Y or true Y
 - Model Statistics: explore the distribution of your model outcomes and performance metrics
 - Interpretability: view the aggregate and individual feature importances across your model and dataset
-- Counterfactual What-Ifs: create automatically generated diverse sets of counterfactual examples for each datapoint that is minimally perturbed in order to switch its predicted class or output. Also create your own counterfactual datapoint by perturbing feature values manually to observe the new outcome of your model prediction.
-- Causal Inferencing: view the aggregate and individual causal effects of *treatment features* (features which you are interested in controlling to affect the outcome) on the outcome in order to make informed real-life business decisions. Also perturb the treatment features to see its affect on your real-life outcome.
+- Counterfactual Example What-If's (new): create automatically generated diverse sets of counterfactual examples for each datapoint that is minimally perturbed in order to switch its predicted class or output. Also create your own counterfactual datapoint by perturbing feature values manually to observe the new outcome of your model prediction.
+- Causal Analysis (new): view the aggregate and individual causal effects of *treatment features* (features which you are interested in controlling to affect the outcome) on the outcome in order to make informed real-life business decisions. See recommended treatment policies for segmentations of your population for features in your dataset to see its effect on your real-life outcome. 
 
 This new feature offers users a new powerful and robust toolkit for understanding your model and data in order to develop your machine learning models responsibly, now all in one place and integrated with your AzureML workspace.
 
