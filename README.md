@@ -1,4 +1,6 @@
-# Azure Machine Learning Responsible AI Toolbox - Private Preview
+# [Deprecated] Azure Machine Learning Responsible AI Toolbox - Private Preview
+
+❗ **DO NOT USE THESE DOCS:* This repo has been deprecated, for the updated private preview docs please see here: https://github.com/Azure/RAI-vNext-Preview
 
 Welcome to the private preview for the new Responsible AI toolbox in Azure Machine Learning (AzureML) SDK and studio. The following is a guide for you to onboard to the new capabilities. For questions, please contact mithigpe@microsoft.com.
 
